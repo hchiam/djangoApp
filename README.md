@@ -12,5 +12,15 @@ You can also visit (http://localhost:8000/polls/)[http://localhost:8000/polls/] 
 App = does something.  can be in multiple projects.
 Project = collection of configurations and apps for a particular website.  can contain multiple apps.
 
-# Next Step:
+# Part 2:
 Continue with [https://docs.djangoproject.com/en/1.10/intro/tutorial02/](https://docs.djangoproject.com/en/1.10/intro/tutorial02/)
+
+## Three Steps to Make Model Changes:
+1. Change your models in `models.py`.
+2. Run the command `python manage.py makemigrations` to create migrations for those changes.
+3. Run the command `python manage.py migrate` to apply those changes to the database.
+
+Why are there separate commands?  To commit migrations to a version control system.
+
+# Next Step:
+"Introducing the Django Admin" [https://docs.djangoproject.com/en/1.10/intro/tutorial02/](https://docs.djangoproject.com/en/1.10/intro/tutorial02/)
